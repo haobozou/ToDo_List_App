@@ -9,12 +9,12 @@ const App = () => {
   return (
     <div className="App">
 
-      <h1>Todo List</h1>
+      <h1 className="todo-list-title">Todo List</h1>
 
       <NewTaskForm setItems={setItems} />
 
-      {items.length === 0 && <p>No Todos</p>}
-      <ul id="items-list">
+      {items.length === 0 && <p className="todo-list-default">No Todos</p>}
+      <ul className="todo-list">
         {items.map((item) => (
           <li key={item.uuid} >
             <Task item={item} setItems={setItems} />

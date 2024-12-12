@@ -1,1 +1,21 @@
-/*# sourceMappingURL=App.css.map */
+.App {
+  font-family: "Courier New", Courier, monospace;
+  max-width: 600px;
+  margin: 0px auto;
+  padding: 0px;
+}
+.App .todo-list-title {
+  text-align: center;
+}
+.App .todo-list-default {
+  font-weight: bold;
+  text-align: center;
+  margin: 24px 0px;
+}
+.App .todo-list {
+  list-style-type: none;
+  padding: 0px;
+}
+.App .todo-list li {
+  margin: 12px 0px;
+}/*# sourceMappingURL=App.css.map */

@@ -21,9 +21,9 @@ const NewTaskForm = ({ setItems }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="new-task-form" onSubmit={handleSubmit}>
 
-      <div>
+      <div className="new-task-form__info">
         <label htmlFor="new-task-form__input">
           New Todo:&nbsp;
         </label>
@@ -34,7 +34,7 @@ const NewTaskForm = ({ setItems }) => {
           }} />
       </div>
 
-      <button type="submit" >
+      <button type="submit" className="new-task-form__button">
         Add
       </button>
 

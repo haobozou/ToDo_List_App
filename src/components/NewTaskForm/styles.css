@@ -1,1 +1,38 @@
-/*# sourceMappingURL=styles.css.map */
+.new-task-form__info {
+  display: flex;
+}
+.new-task-form__info label {
+  font-weight: bold;
+  display: inline-block;
+  height: 100%;
+}
+.new-task-form__info input {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  flex-grow: 1;
+  display: inline-block;
+  height: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.new-task-form__info input:focus {
+  outline: none;
+}
+.new-task-form__button {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  display: block;
+  margin: 12px auto 0px;
+  height: 30px;
+  width: 100%;
+  background-color: lightcyan;
+  border: 1px solid black;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.new-task-form__button:hover {
+  background-color: lightblue;
+}
+.new-task-form__button:active {
+  background-color: lightskyblue;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,46 @@
+.new-task-form {
+    &__info {
+        display: flex;
+
+        label {
+            font-weight: bold;
+            display: inline-block;
+            height: 100%;
+        }
+
+        input {
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            flex-grow: 1;
+            display: inline-block;
+            height: 100%;
+            border: none;
+            border-bottom: 1px solid black;
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    &__button {
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        display: block;
+        margin: 12px auto 0px;
+        height: 30px;
+        width: 100%;
+        background-color: lightcyan;
+        border: 1px solid black;
+        border-radius: 6px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: lightblue;
+        }
+
+        &:active {
+            background-color: lightskyblue;
+        }
+    }
+}

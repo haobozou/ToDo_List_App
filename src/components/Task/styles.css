@@ -1,1 +1,30 @@
-/*# sourceMappingURL=styles.css.map */
+.task {
+  display: flex;
+  align-items: center;
+}
+.task__checkbox {
+  display: inline-block;
+  scale: 1.5;
+}
+.task__label {
+  font-weight: bold;
+  flex-grow: 1;
+  margin-left: 12px;
+}
+.task__button {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: white;
+  display: block;
+  padding: 6px 24px;
+  border: none;
+  border-radius: 6px;
+  background-color: rgb(200, 0, 0);
+  cursor: pointer;
+}
+.task__button:hover {
+  background-color: rgb(255, 0, 0);
+}
+.task__button:active {
+  background-color: rgb(255, 100, 100);
+}/*# sourceMappingURL=styles.css.map */
