@@ -13,6 +13,10 @@
         margin-left: 12px;
     }
 
+    &__label.completed {
+        text-decoration: line-through;
+    }
+
     &__button {
         font-family: 'Courier New', Courier, monospace;
         font-weight: bold;

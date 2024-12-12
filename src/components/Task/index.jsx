@@ -21,7 +21,7 @@ const Task = ({ item: { uuid, content, isCompleted }, setItems }) => {
   return (
     <div className="task">
       <input type="checkbox" className="task__checkbox" id={`task__checkbox${uuid}`} checked={isCompleted} onChange={toggleCompleted} />
-      <label className="task__label" htmlFor={`task__checkbox${uuid}`}>
+      <label className={`task__label${isCompleted ? " completed" : ""}`} htmlFor={`task__checkbox${uuid}`}>
         {content}
       </label>
       <button className="task__button" onClick={removeItem}>Remove</button>
